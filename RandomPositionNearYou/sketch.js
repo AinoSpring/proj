@@ -17,7 +17,7 @@ const options = {
   lat: clat,
   lng: clng,
   zoom: 4,
-  style: "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
+  style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
 }
 
 function setup(){
